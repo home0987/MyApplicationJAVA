@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- 주차 공간을 나타내는 네모칸 -->
+    <View
+        android:id="@+id/parkingSpaceView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_parking_space"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- 주차 상태와 결과를 표시할 TextView -->
+    <TextView
+        android:id="@+id/parkingSpaceStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
